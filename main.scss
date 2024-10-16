@@ -4,11 +4,3 @@
     padding: 0;
   }
 
-  @import 'variables';
-  @import 'mixins';
-  
-  article {
-    font-family: $font-stack;
-    background-color: $secondary-color;
-    @include flex-center;
-  }
